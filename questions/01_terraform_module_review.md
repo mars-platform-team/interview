@@ -1,8 +1,8 @@
-"""
-Question: Review the following Terraform module code. Suggest improvements for reusability, security, and maintainability.
-"""
+# 01. Terraform Module Review
 
-# Example Terraform module (Python pseudo-code for interview context)
+**Question:** Review the following Terraform module code. Suggest improvements for reusability, security, and maintainability.
+
+```hcl
 module "s3_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
   bucket = "my-app-bucket"
@@ -15,3 +15,8 @@ module "s3_bucket" {
     Owner       = "team"
   }
 }
+```
+
+---
+
+**Next question:** [02. ECS Cluster Review](02_ecs_cluster_review.md)

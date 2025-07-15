@@ -1,6 +1,6 @@
-# Dockerfile Improvement Question
+# 08. Dockerfile Improvement
 
-Below is a Dockerfile written in a not recommended way. Review it and list all the issues you find. Suggest improvements for production use.
+**Question:** Below is a Dockerfile written in a not recommended way. Review it and list all the issues you find. Suggest improvements for production use.
 
 ```Dockerfile
 FROM python:3.9
@@ -14,3 +14,6 @@ CMD python app.py
 ---
 - What are the problems with this Dockerfile?
 - How would you improve it for security, efficiency, and maintainability?
+
+---
+**End of questions.**
